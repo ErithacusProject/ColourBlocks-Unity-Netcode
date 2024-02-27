@@ -12,6 +12,7 @@ public class gameInfo : NetworkBehaviour
 
     private void Start()
     {
+        Screen.SetResolution(650, 720, false);
         red.OnValueChanged += SetRedClientRpc;
         blue.OnValueChanged += SetBlueClientRpc;
         green.OnValueChanged += SetGreenClientRpc;
