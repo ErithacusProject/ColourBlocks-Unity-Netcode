@@ -39,11 +39,11 @@ public class PlayerMovement : NetworkBehaviour
         if (isHost)
         {
             
-            gameObject.transform.position = new Vector3(0, 1.5f, 1);
+            gameObject.transform.position = new Vector3(0, 5f, 1);
         }
         else
         {
-            gameObject.transform.position = new Vector3(12, 1.5f, 1);
+            gameObject.transform.position = new Vector3(12, 5f, 1);
 
         }
     }
