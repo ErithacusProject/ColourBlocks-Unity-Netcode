@@ -5,8 +5,7 @@ using UnityEngine;
 public class EndLevelScript : MonoBehaviour
 {
     int collisions;
-
-    public event System.Action LevelFinished;
+    [SerializeField] GameObject endlevelui;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,7 +14,7 @@ public class EndLevelScript : MonoBehaviour
             collisions += 1;
             if (collisions == 2)
             {
-                LevelFinished?.Invoke();
+                endlevelui.SetActive(true);
             }
         }
     }
