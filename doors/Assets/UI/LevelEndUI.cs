@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,11 +13,12 @@ public class LevelEndUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nextButton.onClick.AddListener(() => { NextLevel(); });
+        nextButton.onClick.AddListener(() => { NextLevelClientRpc(); });
         quitButton.onClick.AddListener(() => { QuitGame(); });
     }
 
-    void NextLevel()
+    [ClientRpc]
+    void NextLevelClientRpc()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

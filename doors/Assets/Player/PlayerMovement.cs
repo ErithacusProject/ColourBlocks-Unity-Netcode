@@ -38,6 +38,7 @@ public class PlayerMovement : NetworkBehaviour
         m_rigidBody.velocity = Vector3.zero; 
         if (isHost)
         {
+            
             gameObject.transform.position = new Vector3(0, 1.5f, 1);
         }
         else

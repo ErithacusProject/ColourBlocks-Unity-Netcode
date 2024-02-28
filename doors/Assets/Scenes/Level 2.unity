@@ -131,16 +131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 742502604
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: m_Name
-      value: Green
-      objectReference: {fileID: 0}
     - target: {fileID: 3954420096318052657, guid: 2d69d13cd395c764487532d32d566ceb,
         type: 3}
       propertyPath: m_RootOrder
@@ -195,6 +185,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: m_Name
+      value: Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 742502604
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1273,13 +1273,8 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 546544831}
     m_Modifications:
-    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
-        type: 3}
-      propertyPath: m_Name
-      value: YellowDoor (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -1334,6 +1329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowDoor (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1451,8 +1451,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 546544831}
+    m_TransformParent: {fileID: 1319611467}
     m_Modifications:
+    - target: {fileID: 3946932464554964421, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenDoor
+      objectReference: {fileID: 0}
     - target: {fileID: 5982634936128371822, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1508,11 +1513,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3946932464554964421, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
-        type: 3}
-      propertyPath: m_Name
-      value: GreenDoor
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1538,6 +1538,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: -4928527318060149813, guid: 91d033d5fcb59ec4392e9117128b0070,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 114956883
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
+        type: 3}
+      propertyPath: m_Name
+      value: Red
+      objectReference: {fileID: 0}
     - target: {fileID: 8093376745721439532, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
       propertyPath: m_RootOrder
@@ -1592,16 +1602,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
-        type: 3}
-      propertyPath: m_Name
-      value: Red
-      objectReference: {fileID: 0}
-    - target: {fileID: -4928527318060149813, guid: 91d033d5fcb59ec4392e9117128b0070,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 114956883
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2431,6 +2431,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4157652174
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -2485,16 +2495,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 4157652174
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2588,8 +2588,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 546544831}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
+    - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
+        type: 3}
+      propertyPath: m_Name
+      value: RedDoor
+      objectReference: {fileID: 0}
     - target: {fileID: 5784291711400705058, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
       propertyPath: m_RootOrder
@@ -2645,11 +2650,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
-        type: 3}
-      propertyPath: m_Name
-      value: RedDoor
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2663,15 +2663,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
-        type: 3}
-      propertyPath: m_Name
-      value: Red (3)
-      objectReference: {fileID: 0}
     - target: {fileID: -4928527318060149813, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4267086650
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
+        type: 3}
+      propertyPath: m_Name
+      value: Red (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8093376745721439532, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
@@ -2747,15 +2747,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2240457593
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
@@ -2906,6 +2906,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 563397301
+      objectReference: {fileID: 0}
     - target: {fileID: 8732922455052604671, guid: b290d7935ff1130499eb0ae8a95db338,
         type: 3}
       propertyPath: m_RootOrder
@@ -2960,16 +2970,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: m_Name
-      value: Blue (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 563397301
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3519,15 +3519,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
-        type: 3}
-      propertyPath: m_Name
-      value: Red (2)
-      objectReference: {fileID: 0}
     - target: {fileID: -4928527318060149813, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1990848949
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
+        type: 3}
+      propertyPath: m_Name
+      value: Red (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8093376745721439532, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
@@ -3601,8 +3601,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 546544831}
+    m_TransformParent: {fileID: 2099383417}
     m_Modifications:
+    - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
+        type: 3}
+      propertyPath: m_Name
+      value: BlueDoor
+      objectReference: {fileID: 0}
     - target: {fileID: 8525566857520537893, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3657,11 +3662,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
-        type: 3}
-      propertyPath: m_Name
-      value: BlueDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4047,7 +4047,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
     - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
@@ -4408,7 +4408,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1319611467}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
     - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
@@ -4487,81 +4487,81 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1319611467}
+    m_TransformParent: {fileID: 546544831}
     m_Modifications:
     - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3039461023
       objectReference: {fileID: 0}
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_RootOrder
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.387354
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.2134056
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.6752884
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+    - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowDoor (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5d5867fc24d529e49b7eeddf76fddc1c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 35a1397462b5cfc44a0643d5c77340ee, type: 3}
 --- !u!4 &508995898 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+  m_CorrespondingSourceObject: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
     type: 3}
   m_PrefabInstance: {fileID: 508995897}
   m_PrefabAsset: {fileID: 0}
@@ -4710,16 +4710,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 552153462}
   - {fileID: 1593580173}
-  - {fileID: 117252251}
   - {fileID: 2062196755}
   - {fileID: 607217443}
-  - {fileID: 810079727}
   - {fileID: 482316710}
-  - {fileID: 541620029}
   - {fileID: 435342691}
-  - {fileID: 1679508137}
+  - {fileID: 107136799}
+  - {fileID: 746255160}
+  - {fileID: 118033606}
+  - {fileID: 508995898}
+  - {fileID: 107735903}
   m_Father: {fileID: 1276007238}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4735,13 +4735,8 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1133038805}
+    m_TransformParent: {fileID: 546544831}
     m_Modifications:
-    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
-        type: 3}
-      propertyPath: m_Name
-      value: YellowDoor
-      objectReference: {fileID: 0}
     - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -4797,6 +4792,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4808,7 +4808,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1319611467}
+    m_TransformParent: {fileID: 2099383417}
     m_Modifications:
     - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
         type: 3}
@@ -5734,8 +5734,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 546544831}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
+    - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
+        type: 3}
+      propertyPath: m_Name
+      value: RedDoor (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5784291711400705058, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
       propertyPath: m_RootOrder
@@ -5790,11 +5795,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
-        type: 3}
-      propertyPath: m_Name
-      value: RedDoor (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6315,13 +6315,8 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 546544831}
     m_Modifications:
-    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
-        type: 3}
-      propertyPath: m_Name
-      value: YellowDoor (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -6376,6 +6371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowDoor (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6566,7 +6566,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1133038805}
+    m_TransformParent: {fileID: 2099383417}
     m_Modifications:
     - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
         type: 3}
@@ -6961,6 +6961,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2929141611
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -7015,16 +7025,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2929141611
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7255,16 +7255,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 754327759
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: m_Name
-      value: Green (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 3954420096318052657, guid: 2d69d13cd395c764487532d32d566ceb,
         type: 3}
       propertyPath: m_RootOrder
@@ -7320,6 +7310,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: m_Name
+      value: Green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 754327759
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7346,7 +7346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1133038805
 Transform:
   m_ObjectHideFlags: 0
@@ -7359,16 +7359,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 201192419}
   - {fileID: 889551418}
   - {fileID: 406371315}
   - {fileID: 1393379042}
-  - {fileID: 988409718}
   - {fileID: 1334386865}
-  - {fileID: 1457063816}
   - {fileID: 2032165212}
   - {fileID: 1821006228}
-  - {fileID: 107136799}
+  - {fileID: 1385969948}
+  - {fileID: 2054786456}
+  - {fileID: 1624008093}
+  - {fileID: 506730939}
+  - {fileID: 810079727}
+  - {fileID: 1679508137}
   m_Father: {fileID: 1276007238}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7380,6 +7382,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1895859205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -7434,16 +7446,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 1895859205
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8786,16 +8788,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1018213315}
-  - {fileID: 506730939}
   - {fileID: 837932455}
-  - {fileID: 508995898}
   - {fileID: 1332393092}
   - {fileID: 1231059340}
-  - {fileID: 107735903}
   - {fileID: 516675043}
   - {fileID: 299662192}
   - {fileID: 1877543225}
+  - {fileID: 1702220156}
+  - {fileID: 117252251}
+  - {fileID: 541620029}
   m_Father: {fileID: 1276007238}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8805,7 +8806,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
     - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
@@ -9072,6 +9073,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3996436321
+      objectReference: {fileID: 0}
     - target: {fileID: 8732922455052604671, guid: b290d7935ff1130499eb0ae8a95db338,
         type: 3}
       propertyPath: m_RootOrder
@@ -9126,16 +9137,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: m_Name
-      value: Blue (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 3996436321
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9584,16 +9585,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 3659743019
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: m_Name
-      value: Green (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3954420096318052657, guid: 2d69d13cd395c764487532d32d566ceb,
         type: 3}
       propertyPath: m_RootOrder
@@ -9649,6 +9640,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: m_Name
+      value: Green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3659743019
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9666,7 +9667,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1133038805}
+    m_TransformParent: {fileID: 2099383417}
     m_Modifications:
     - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
         type: 3}
@@ -10133,15 +10134,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1776869581
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
@@ -10371,15 +10372,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
-        type: 3}
-      propertyPath: m_Name
-      value: Red (7)
-      objectReference: {fileID: 0}
     - target: {fileID: -4928527318060149813, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1369054281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133652462887536740, guid: 91d033d5fcb59ec4392e9117128b0070,
+        type: 3}
+      propertyPath: m_Name
+      value: Red (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8093376745721439532, guid: 91d033d5fcb59ec4392e9117128b0070,
         type: 3}
@@ -11449,16 +11450,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2288450270
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: m_Name
-      value: Green (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 3954420096318052657, guid: 2d69d13cd395c764487532d32d566ceb,
         type: 3}
       propertyPath: m_RootOrder
@@ -11513,6 +11504,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: m_Name
+      value: Green (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2288450270
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11584,7 +11585,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 1319611467}
     m_Modifications:
     - target: {fileID: 3946932464554964421, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
         type: 3}
@@ -11663,7 +11664,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2099383417}
+    m_TransformParent: {fileID: 1133038805}
     m_Modifications:
     - target: {fileID: 3856535140306187657, guid: 8d1c56a5c95e8694b9cf57dc8f3c5ce4,
         type: 3}
@@ -12158,7 +12159,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1133038805}
+    m_TransformParent: {fileID: 2099383417}
     m_Modifications:
     - target: {fileID: 1409663028216883342, guid: 52cc65f7e5dbe154a8a2df46ffa64e0b,
         type: 3}
@@ -12470,6 +12471,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2874550821
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow
+      objectReference: {fileID: 0}
     - target: {fileID: 5075563122590889729, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -12525,16 +12536,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2116004416905058889, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 989432947185500646, guid: 5d5867fc24d529e49b7eeddf76fddc1c,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2874550821
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12552,13 +12553,8 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1319611467}
+    m_TransformParent: {fileID: 546544831}
     m_Modifications:
-    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
-        type: 3}
-      propertyPath: m_Name
-      value: YellowDoor
-      objectReference: {fileID: 0}
     - target: {fileID: 4043784371939976492, guid: 35a1397462b5cfc44a0643d5c77340ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -12614,6 +12610,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6764033471527955591, guid: 35a1397462b5cfc44a0643d5c77340ee,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12633,15 +12634,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 763517493
-      objectReference: {fileID: 0}
     - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
         type: 3}
       propertyPath: m_Name
       value: Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 763517493
       objectReference: {fileID: 0}
     - target: {fileID: 8732922455052604671, guid: b290d7935ff1130499eb0ae8a95db338,
         type: 3}
@@ -12717,16 +12718,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
-    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2649425133
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
-        type: 3}
-      propertyPath: m_Name
-      value: Green (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 3954420096318052657, guid: 2d69d13cd395c764487532d32d566ceb,
         type: 3}
       propertyPath: m_RootOrder
@@ -12781,6 +12772,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912093553338528889, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: m_Name
+      value: Green (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019520248941998038, guid: 2d69d13cd395c764487532d32d566ceb,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2649425133
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13712,6 +13713,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 14231610}
     m_Modifications:
+    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3877002594
+      objectReference: {fileID: 0}
     - target: {fileID: 8732922455052604671, guid: b290d7935ff1130499eb0ae8a95db338,
         type: 3}
       propertyPath: m_RootOrder
@@ -13766,16 +13777,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2457867803989113271, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: m_Name
-      value: Blue (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3673454559396897304, guid: b290d7935ff1130499eb0ae8a95db338,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 3877002594
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13888,7 +13889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2099383417
 Transform:
   m_ObjectHideFlags: 0
@@ -13901,16 +13902,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 746255160}
+  - {fileID: 1018213315}
+  - {fileID: 201192419}
   - {fileID: 1538452903}
-  - {fileID: 1702220156}
   - {fileID: 1511416699}
   - {fileID: 1906443031}
   - {fileID: 2016427055}
-  - {fileID: 2054786456}
-  - {fileID: 118033606}
-  - {fileID: 1624008093}
-  - {fileID: 1385969948}
+  - {fileID: 988409718}
+  - {fileID: 1457063816}
+  - {fileID: 552153462}
   m_Father: {fileID: 1276007238}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13973,8 +13973,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 546544831}
+    m_TransformParent: {fileID: 1319611467}
     m_Modifications:
+    - target: {fileID: 3946932464554964421, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenDoor (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5982634936128371822, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
         type: 3}
       propertyPath: m_RootOrder
@@ -14029,11 +14034,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3946932464554964421, guid: 5a2ab0b34cfbb4141a04b22986a4360f,
-        type: 3}
-      propertyPath: m_Name
-      value: GreenDoor (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
