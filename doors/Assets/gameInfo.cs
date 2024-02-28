@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class gameInfo : NetworkBehaviour
 {
-    public NetworkVariable<bool> red = new NetworkVariable<bool>(false);
-    public NetworkVariable<bool> blue = new NetworkVariable<bool>(false);
-    public NetworkVariable<bool> green = new NetworkVariable<bool>(false);
-    public NetworkVariable<bool> yellow = new NetworkVariable<bool>(false);
+    public NetworkVariable<bool> red = new NetworkVariable<bool>();
+    public NetworkVariable<bool> blue = new NetworkVariable<bool>();
+    public NetworkVariable<bool> green = new NetworkVariable<bool>();
+    public NetworkVariable<bool> yellow = new NetworkVariable<bool>();
 
     private void Start()
     {
