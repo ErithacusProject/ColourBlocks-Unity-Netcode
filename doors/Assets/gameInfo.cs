@@ -10,6 +10,26 @@ public class gameInfo : NetworkBehaviour
     public NetworkVariable<bool> green = new NetworkVariable<bool>(false);
     public NetworkVariable<bool> yellow = new NetworkVariable<bool>(false);
 
+    public override void OnNetworkSpawn()
+    {
+        if (red.Value)
+        {
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
+        if (blue.Value)
+        {
+            transform.GetChild(1).gameObject.SetActive(false);
+        }
+        if (green.Value)
+        {
+            transform.GetChild(2).gameObject.SetActive(false);
+        }
+        if (yellow.Value)
+        {
+            transform.GetChild(3).gameObject.SetActive(false);
+        }
+    }
+
     private void Start()
     {
         Screen.SetResolution(650, 720, false);
