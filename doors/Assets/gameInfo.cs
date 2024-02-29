@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class gameInfo : NetworkBehaviour
@@ -32,6 +33,7 @@ public class gameInfo : NetworkBehaviour
 
     private void Start()
     {
+        
         Screen.SetResolution(650, 720, false);
         red.OnValueChanged += SetRedClientRpc;
         blue.OnValueChanged += SetBlueClientRpc;

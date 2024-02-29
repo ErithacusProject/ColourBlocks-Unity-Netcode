@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndLevelScript : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class EndLevelScript : MonoBehaviour
             collisions += 1;
             if (collisions == 2)
             {
-                endlevelui.SetActive(true);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                //endlevelui.SetActive(true);
             }
         }
     }

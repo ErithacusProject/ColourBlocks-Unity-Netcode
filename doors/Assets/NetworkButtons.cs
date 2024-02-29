@@ -27,12 +27,16 @@ public class NetworkButtons : NetworkBehaviour
         GameObject player = Instantiate(playerPrefab);
         if (isHost)
         {
-            player.transform.position = new Vector3(0, 1.5f, 1);
+            Vector3 startPos = new Vector3(0, 1.5f, 1);
+            player.transform.position = startPos;
+            player.GetComponent<PlayerMovement>().SetInitialPos(startPos);
         }
         else
         {
-            player.transform.position = new Vector3(12, 1.5f, 1);
-            
+            Vector3 startPos = new Vector3(12, 1.5f, 1);
+            player.transform.position = startPos;
+            player.GetComponent<PlayerMovement>().SetInitialPos(startPos);
+
         }
         player.GetComponent<NetworkObject>().SpawnWithOwnership(rpcParams.Receive.SenderClientId);
     }

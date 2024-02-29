@@ -12,6 +12,9 @@ public class PlayerMovement : NetworkBehaviour
     Vector3 m_movementDirection;
     [SerializeField] float m_movementForce;
     PlayerInput m_playerInput;
+    Vector3 m_initialPos;
+
+    public void SetInitialPos(Vector3 pos) { m_initialPos = pos; }
 
     public override void OnNetworkSpawn()
     {
@@ -26,26 +29,17 @@ public class PlayerMovement : NetworkBehaviour
     private void OnLevelWasLoaded(int level)
     {
         if (SceneManager.GetActiveScene().name == "Level 1") { return; }
-        if (IsOwner)
+        if (IsHost)
         {
-            SetStartPosServerRpc(IsHost);
+            SetStartPosServerRpc();
         }
     }
 
     [ServerRpc(RequireOwnership = false)]
-    void SetStartPosServerRpc(bool isHost)
+    void SetStartPosServerRpc()
     {
         m_rigidBody.velocity = Vector3.zero; 
-        if (isHost)
-        {
-            
-            gameObject.transform.position = new Vector3(0, 5f, 1);
-        }
-        else
-        {
-            gameObject.transform.position = new Vector3(12, 5f, 1);
-
-        }
+        gameObject.transform.position = m_initialPos;
     }
 
     void StartMove(InputAction.CallbackContext context) 
