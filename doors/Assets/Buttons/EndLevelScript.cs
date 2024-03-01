@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndLevelScript : MonoBehaviour
+public class EndLevelScript : NetworkBehaviour
 {
     int collisions;
     [SerializeField] GameObject endlevelui;
@@ -15,10 +16,18 @@ public class EndLevelScript : MonoBehaviour
             collisions += 1;
             if (collisions == 2)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                //endlevelui.SetActive(true);
+                if (IsHost)
+                {
+                    ChangeLevelClientRpc();
+                }
             }
         }
+    }
+
+    [ClientRpc]
+    void ChangeLevelClientRpc()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void OnTriggerExit(Collider other)
