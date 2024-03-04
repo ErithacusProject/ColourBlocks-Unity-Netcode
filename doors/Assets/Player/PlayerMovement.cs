@@ -36,8 +36,9 @@ public class PlayerMovement : NetworkBehaviour
     }
 
     [ServerRpc(RequireOwnership = false)]
-    void SetStartPosServerRpc()
+    void SetStartPosServerRpc(ServerRpcParams rpcParams = default)
     {
+        gameObject.GetComponent<NetworkObject>().SpawnWithOwnership(rpcParams.Receive.SenderClientId);
         m_rigidBody.velocity = Vector3.zero; 
         gameObject.transform.position = m_initialPos;
     }

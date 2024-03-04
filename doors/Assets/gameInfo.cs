@@ -31,9 +31,25 @@ public class gameInfo : NetworkBehaviour
         }
     }
 
+
     private void Start()
     {
-        
+        if (red.Value)
+        {
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
+        if (blue.Value)
+        {
+            transform.GetChild(1).gameObject.SetActive(false);
+        }
+        if (green.Value)
+        {
+            transform.GetChild(2).gameObject.SetActive(false);
+        }
+        if (yellow.Value)
+        {
+            transform.GetChild(3).gameObject.SetActive(false);
+        }
         Screen.SetResolution(650, 720, false);
         red.OnValueChanged += SetRedClientRpc;
         blue.OnValueChanged += SetBlueClientRpc;

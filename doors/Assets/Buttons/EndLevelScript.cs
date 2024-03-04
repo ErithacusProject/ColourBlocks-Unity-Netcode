@@ -16,10 +16,9 @@ public class EndLevelScript : NetworkBehaviour
             collisions += 1;
             if (collisions == 2)
             {
-                if (IsHost)
-                {
-                    ChangeLevelClientRpc();
-                }
+                
+                    Application.Quit();
+                
             }
         }
     }
