@@ -2,23 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class NetworkButtons : NetworkBehaviour
+public class LoadPlayersIntoLevel : NetworkBehaviour
 {
-    [SerializeField] Button HostBtn;
-    [SerializeField] Button ServerBtn;
-    [SerializeField] Button ClientBtn;
     [SerializeField] GameObject playerPrefab;
-    int clickCount = 0;
-
-    //ulong ClientID = 0;
-
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
-        HostBtn.onClick.AddListener( () => {  NetworkManager.Singleton.StartHost(); CreatePlayerServerRpc(true); gameObject.SetActive(false); });
-        ServerBtn.onClick.AddListener( () => { NetworkManager.Singleton.StartServer(); });
-        ClientBtn.onClick.AddListener( () => { NetworkManager.Singleton.StartClient();  CreatePlayerServerRpc(false); clickCount++; if (clickCount > 1) gameObject.SetActive(false); });
+        CreatePlayerServerRpc(IsHost);
     }
 
     [ServerRpc(RequireOwnership = false)]
@@ -40,11 +31,4 @@ public class NetworkButtons : NetworkBehaviour
         }
         player.GetComponent<NetworkObject>().SpawnWithOwnership(rpcParams.Receive.SenderClientId);
     }
-
-    
-
-
-
-
-
 }

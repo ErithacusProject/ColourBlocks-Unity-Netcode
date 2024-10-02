@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : NetworkBehaviour
 {
@@ -10,15 +12,35 @@ public class PlayerMovement : NetworkBehaviour
     Vector3 m_movementDirection;
     [SerializeField] float m_movementForce;
     PlayerInput m_playerInput;
+    Vector3 m_initialPos;
+
+    public void SetInitialPos(Vector3 pos) { m_initialPos = pos; }
 
     public override void OnNetworkSpawn()
     {
-        
+        DontDestroyOnLoad(gameObject);
         m_rigidBody = GetComponent<Rigidbody>(); 
         if (!IsOwner) { return; }
         m_playerInput = GetComponent<PlayerInput>();
         m_playerInput.currentActionMap.FindAction("Movement").performed += StartMove;
         m_playerInput.currentActionMap.FindAction("Movement").canceled += StartEnd;
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        if (SceneManager.GetActiveScene().name == "Level 1") { return; }
+        if (IsHost)
+        {
+            SetStartPosServerRpc();
+        }
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    void SetStartPosServerRpc(ServerRpcParams rpcParams = default)
+    {
+        gameObject.GetComponent<NetworkObject>().SpawnWithOwnership(rpcParams.Receive.SenderClientId);
+        m_rigidBody.velocity = Vector3.zero; 
+        gameObject.transform.position = m_initialPos;
     }
 
     void StartMove(InputAction.CallbackContext context) 
