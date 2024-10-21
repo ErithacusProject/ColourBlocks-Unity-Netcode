@@ -1,8 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto 
 
-* .shaders linguist-vendored=true
-* .cginc linguist-vendored=true
-
-*.shaders linguist-detectable=false
-*.cginc linguist-detectable=false
+*.shaders linguist-vendored=true
+*.cginc linguist-vendored=true
